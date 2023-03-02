@@ -1,0 +1,285 @@
+2023-02-17 09:55 INFO  c.p.t.a.ApiGatewayServiceApplication - No active profile set, falling back to default profiles: default
+2023-02-17 09:55 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=2e64fce6-914c-3651-a175-f0d3db9c1eac
+2023-02-17 09:55 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 09:55 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 09:55 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 09:55 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2023-02-17 09:55 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2023-02-17 09:55 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2023-02-17 09:55 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2023-02-17 09:55 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2023-02-17 09:55 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2023-02-17 09:55 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2023-02-17 09:55 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2023-02-17 09:55 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2023-02-17 09:55 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2023-02-17 09:55 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2023-02-17 09:55 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2023-02-17 09:55 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-02-17 09:55 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2023-02-17 09:55 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-17 09:55 INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2023-02-17 09:55 INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2023-02-17 09:55 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 09:55 INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2023-02-17 09:55 INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2023-02-17 09:55 INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2023-02-17 09:55 INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2023-02-17 09:55 INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2023-02-17 09:55 INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2023-02-17 09:55 INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2023-02-17 09:55 INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2023-02-17 09:55 INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2023-02-17 09:55 INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-02-17 09:55 INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1676602519566 with initial instances count: 2
+2023-02-17 09:55 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application API-GATEWAY with eureka with status UP
+2023-02-17 09:55 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1676602519568, current=UP, previous=STARTING]
+2023-02-17 09:55 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_API-GATEWAY/api-gateway-27116a0c-1375-461a-8e96-8c693f323490: registering service...
+2023-02-17 09:55 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_API-GATEWAY/api-gateway-27116a0c-1375-461a-8e96-8c693f323490 - registration status: 204
+2023-02-17 09:55 INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port(s): 8080
+2023-02-17 09:55 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8080
+2023-02-17 09:55 INFO  c.p.t.a.ApiGatewayServiceApplication - Started ApiGatewayServiceApplication in 6.928 seconds (JVM running for 7.777)
+2023-02-17 10:00 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 10:05 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 10:10 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 10:15 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 10:20 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 10:25 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 10:30 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 10:35 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 10:40 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 10:45 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 10:48 INFO  c.p.t.a.ApiGatewayServiceApplication - No active profile set, falling back to default profiles: default
+2023-02-17 10:48 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b88a2600-6360-398a-bf4a-519fdc53144c
+2023-02-17 10:48 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 10:48 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 10:48 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 10:48 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-17 10:48 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-17 10:48 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-17 10:48 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2023-02-17 10:48 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2023-02-17 10:48 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2023-02-17 10:48 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2023-02-17 10:48 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2023-02-17 10:48 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2023-02-17 10:48 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2023-02-17 10:48 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2023-02-17 10:48 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2023-02-17 10:48 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2023-02-17 10:48 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2023-02-17 10:48 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2023-02-17 10:48 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-02-17 10:48 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2023-02-17 10:48 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-17 10:48 INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2023-02-17 10:48 INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2023-02-17 10:48 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 10:48 INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2023-02-17 10:48 INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2023-02-17 10:48 INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2023-02-17 10:48 INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2023-02-17 10:48 INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2023-02-17 10:48 INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2023-02-17 10:48 INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2023-02-17 10:48 INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2023-02-17 10:48 INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2023-02-17 10:48 INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-02-17 10:48 INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1676605713961 with initial instances count: 2
+2023-02-17 10:48 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application API-GATEWAY with eureka with status UP
+2023-02-17 10:48 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1676605713962, current=UP, previous=STARTING]
+2023-02-17 10:48 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_API-GATEWAY/api-gateway-1a9c32cb-0469-4eaf-aaff-2a92a685e181: registering service...
+2023-02-17 10:48 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_API-GATEWAY/api-gateway-1a9c32cb-0469-4eaf-aaff-2a92a685e181 - registration status: 204
+2023-02-17 10:48 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-17 10:48 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8080
+2023-02-17 10:48 INFO  c.p.t.a.ApiGatewayServiceApplication - Started ApiGatewayServiceApplication in 6.703 seconds (JVM running for 7.604)
+2023-02-17 10:49 INFO  c.p.t.a.config.WebFilterCustom - 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: cfb2f9ab-b3fc-405a-8f98-a7fd09c80058
+[PATH]: http://localhost:8080/api/product/test
+[HEADERS]: 
+LOGGING REQUEST-----------------------------------
+
+2023-02-17 10:49 INFO  c.p.t.a.config.WebFilterCustom - 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: 6abaf4fd-2330-4f1e-b08e-8312ac714084
+[PATH]: http://localhost:8080/api/product/test
+[HEADERS]: 
+LOGGING REQUEST-----------------------------------
+
+2023-02-17 10:52 INFO  c.p.t.a.config.WebFilterCustom - 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: 1116de98-6ad5-48a3-9733-88361c4c1896
+[PATH]: http://localhost:8080/api/product/test
+[HEADERS]: 
+LOGGING REQUEST-----------------------------------
+
+2023-02-17 10:52 INFO  c.p.t.a.config.WebFilterCustom - 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: 98d86d79-593a-4a36-a779-7154939f2dc4
+[PATH]: http://localhost:8080/api/product/test
+[HEADERS]: 
+LOGGING REQUEST-----------------------------------
+
+2023-02-17 10:53 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 10:54 INFO  c.p.t.a.ApiGatewayServiceApplication - No active profile set, falling back to default profiles: default
+2023-02-17 10:54 INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=b88a2600-6360-398a-bf4a-519fdc53144c
+2023-02-17 10:54 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 10:54 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 10:54 INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-17 10:54 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-02-17 10:54 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-02-17 10:54 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.63]
+2023-02-17 10:54 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [After]
+2023-02-17 10:54 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Before]
+2023-02-17 10:54 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Between]
+2023-02-17 10:54 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Cookie]
+2023-02-17 10:54 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Header]
+2023-02-17 10:54 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Host]
+2023-02-17 10:54 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Method]
+2023-02-17 10:54 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Path]
+2023-02-17 10:54 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Query]
+2023-02-17 10:54 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [ReadBody]
+2023-02-17 10:54 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [RemoteAddr]
+2023-02-17 10:54 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [Weight]
+2023-02-17 10:54 INFO  o.s.c.g.r.RouteDefinitionRouteLocator - Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-02-17 10:54 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+2023-02-17 10:54 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-02-17 10:54 INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+2023-02-17 10:54 INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2023-02-17 10:54 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 10:54 INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+2023-02-17 10:54 INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2023-02-17 10:54 INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2023-02-17 10:54 INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+2023-02-17 10:54 INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2023-02-17 10:54 INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+2023-02-17 10:54 INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2023-02-17 10:54 INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+2023-02-17 10:54 INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2023-02-17 10:54 INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-02-17 10:54 INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1676606098689 with initial instances count: 2
+2023-02-17 10:54 INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application API-GATEWAY with eureka with status UP
+2023-02-17 10:54 INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1676606098691, current=UP, previous=STARTING]
+2023-02-17 10:54 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_API-GATEWAY/api-gateway-3c7bda03-3eb8-4f8f-a3b1-c3343e30572e: registering service...
+2023-02-17 10:54 INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_API-GATEWAY/api-gateway-3c7bda03-3eb8-4f8f-a3b1-c3343e30572e - registration status: 204
+2023-02-17 10:54 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-17 10:54 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8080
+2023-02-17 10:54 INFO  c.p.t.a.ApiGatewayServiceApplication - Started ApiGatewayServiceApplication in 6.758 seconds (JVM running for 7.632)
+2023-02-17 10:55 INFO  c.p.t.a.config.WebFilterCustom - 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: 71fc75bc-6fe4-416e-b645-097c238145de
+[PATH]: http://localhost:8080/api/product/test
+[HEADERS]: 
+LOGGING REQUEST-----------------------------------
+
+2023-02-17 10:56 INFO  c.p.t.a.config.WebFilterCustom - 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: e660c10a-ad4a-49cf-8253-714558fa3361
+[PATH]: http://localhost:8080/api/product/test
+[HEADERS]: 
+LOGGING REQUEST-----------------------------------
+
+2023-02-17 10:56 INFO  c.p.t.a.config.WebFilterCustom - 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: 2c2699e0-e288-4798-9201-78328e27a55d
+[PATH]: http://localhost:8080/api/product/test
+[HEADERS]: 
+LOGGING REQUEST-----------------------------------
+
+2023-02-17 10:56 INFO  c.p.t.a.config.WebFilterCustom - 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: 293f19d3-0191-48e9-b2a3-1ec3226ccfa6
+[PATH]: http://localhost:8080/api/product/test
+[HEADERS]: 
+LOGGING REQUEST-----------------------------------
+
+2023-02-17 10:56 INFO  c.p.t.a.config.WebFilterCustom - 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: 92f01f7e-6b4a-40ac-9896-d6557046e364
+[PATH]: http://localhost:8080/api/product/test
+[HEADERS]: 
+LOGGING REQUEST-----------------------------------
+
+2023-02-17 10:56 INFO  c.p.t.a.config.WebFilterCustom - 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: eb24060b-21c7-4ff2-b87d-faf1e11d4367
+[PATH]: http://localhost:8080/api/product/test
+[HEADERS]: 
+LOGGING REQUEST-----------------------------------
+
+2023-02-17 10:56 INFO  c.p.t.a.config.WebFilterCustom - 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: 52936048-ab14-4ca0-a8f0-9d36562731a2
+[PATH]: http://localhost:8080/api/product/test
+[HEADERS]: 
+LOGGING REQUEST-----------------------------------
+
+2023-02-17 10:56 INFO  c.p.t.a.config.WebFilterCustom - 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: 1bf22287-010b-4b82-8acd-1d27851ef5a5
+[PATH]: http://localhost:8080/api/product/test
+[HEADERS]: 
+LOGGING REQUEST-----------------------------------
+
+2023-02-17 10:56 INFO  c.p.t.a.config.WebFilterCustom - 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: e1c915ba-87ed-4394-9f29-83a71ad8fb31
+[PATH]: http://localhost:8080/api/product/test
+[HEADERS]: 
+LOGGING REQUEST-----------------------------------
+
+2023-02-17 10:56 INFO  c.p.t.a.config.WebFilterCustom - 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: fadd122e-dd65-4d43-8650-c01f53ae0601
+[PATH]: http://localhost:8080/api/product/test
+[HEADERS]: 
+LOGGING REQUEST-----------------------------------
+
+2023-02-17 10:56 INFO  c.p.t.a.config.WebFilterCustom - 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: f915eaf3-bf82-4192-acfc-10195089be19
+[PATH]: http://localhost:8080/api/product/test
+[HEADERS]: 
+LOGGING REQUEST-----------------------------------
+
+2023-02-17 10:57 INFO  c.p.t.a.config.WebFilterCustom - 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: a834683e-84c9-438c-b326-c0d83905d906
+[PATH]: http://localhost:8080/api/product/test
+[HEADERS]: 
+LOGGING REQUEST-----------------------------------
+
+2023-02-17 10:57 INFO  c.p.t.a.config.WebFilterCustom - 
+LOGGING REQUEST-----------------------------------
+[REQUEST-ID]: 288a61da-3760-44ed-b657-8b27a614d42d
+[PATH]: http://localhost:8080/api/product/test
+[HEADERS]: 
+LOGGING REQUEST-----------------------------------
+
+2023-02-17 10:59 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 11:04 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 11:09 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 11:14 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 11:19 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 11:24 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 11:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 11:34 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 11:39 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 11:44 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 11:49 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 11:54 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 11:59 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 12:04 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 12:09 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 12:14 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 12:19 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 12:24 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 12:29 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 12:34 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 12:39 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 12:44 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 12:49 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 12:54 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 12:59 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2023-02-17 13:04 INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
